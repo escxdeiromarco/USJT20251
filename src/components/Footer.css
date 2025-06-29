@@ -1,0 +1,78 @@
+.footer {
+  background-color: #2d2d2df1;
+  padding: 1rem 2rem;
+  font-family: sans-serif;
+  border-top: 1px solid #ddd;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  
+}
+
+.footer-link {
+  background: none;
+  border: none;
+  color: #ffffff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0;
+  white-space: nowrap;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.footer-link:hover {
+  color: #000; /* Cor do texto quando passar o mouse */
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.footer-link:focus {
+  outline: none; /* Removendo o contorno azul no foco */
+}
+
+.footer-separator {
+  color: #ffffff;
+}
+
+.footer-divider {
+  margin: 1rem 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #fff5f5;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}

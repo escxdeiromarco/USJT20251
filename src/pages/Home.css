@@ -1,0 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #8bbcec;
+}
